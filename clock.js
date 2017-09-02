@@ -103,6 +103,6 @@ document.addEventListener('DOMContentLoaded', function() {
   dBox.value = now.getDate();
   yBox.value = now.getFullYear();
 
-  var intervalId = setInterval(tick, 10);
+  var intervalId = setInterval(tick, 1000);
 
 });
